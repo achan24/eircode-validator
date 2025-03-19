@@ -11,7 +11,7 @@ setuptools.setup(
     description="A library to validate Irish Eircodes",
     long_description=long_description,
     long_description_content_type="text/markdown",
-    url="https://github.com/albertc44/eircode-validator",
+    url="https://github.com/achan24/eircode-validator",
     packages=setuptools.find_packages(),
     install_requires=[],
     classifiers=[

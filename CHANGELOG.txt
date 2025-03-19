@@ -1,0 +1,8 @@
+Changelog - Eircode Validator
+
+Version 0.1.0 - Initial Release (2024-03-19)
+- Created the EircodeValidator class
+- Implemented the `validate()` method to check Irish Eircode format
+- Implemented the `format()` method to standardize Eircode spacing
+- Packaged the library for distribution
+- Ready for publishing to TestPyPI
