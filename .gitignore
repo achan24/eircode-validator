@@ -57,3 +57,4 @@ htmlcov/
 .gitignore
 test_package.py
 MANIFEST.in
+test_eircode_validator.py
