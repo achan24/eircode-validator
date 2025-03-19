@@ -19,11 +19,16 @@ wheels/
 *.egg-info/
 .installed.cfg
 *.egg
+MANIFEST
 
 # Virtual environments
 venv/
 env/
 ENV/
+.env
+.venv
+env.bak/
+venv.bak/
 
 # IDE specific files
 .idea/
@@ -31,3 +36,24 @@ ENV/
 *.swp
 *.swo
 .DS_Store
+
+# Testing
+test_package.py
+.pytest_cache/
+.coverage
+htmlcov/
+.tox/
+
+# Distribution
+*.tar.gz
+*.whl
+
+# Local development
+.env
+*.log
+.python-version
+
+
+.gitignore
+test_package.py
+MANIFEST.in

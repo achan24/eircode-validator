@@ -5,7 +5,7 @@ with open("README.md", "r", encoding="utf-8") as fh:
 
 setuptools.setup(
     name="eircode-validator-24203203",
-    version="0.1.0",
+    version="0.1.1",
     author="Albert Chan",
     author_email="x24203203@student.ncirl.ie",
     description="A library to validate Irish Eircodes",
@@ -13,7 +13,6 @@ setuptools.setup(
     long_description_content_type="text/markdown",
     url="https://github.com/achan24/eircode-validator",
     packages=setuptools.find_packages(),
-    install_requires=[],
     classifiers=[
         "Programming Language :: Python :: 3",
         "License :: OSI Approved :: MIT License",
